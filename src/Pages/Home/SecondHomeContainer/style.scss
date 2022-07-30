@@ -1,0 +1,21 @@
+.secondHomeContainer{
+    display: flex;
+    margin-bottom: 100px;
+    cursor: pointer;
+    .secondImg{
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    h3{
+        padding: 20px 0;
+    }
+    button{
+        padding: 10px 20px;
+        background-color: #59ab6e;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}

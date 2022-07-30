@@ -1,0 +1,14 @@
+.secondContainer {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  margin: 150px 50px;
+  div {
+    width: 55 px;
+    height: 40px;
+  }
+  span {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}

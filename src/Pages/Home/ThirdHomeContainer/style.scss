@@ -1,0 +1,52 @@
+.thirdList{
+  .thierdListContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .topImg {
+    width: 100%;
+    height: 350px;
+  }
+  .buttonCont {
+    background-color: white;
+    border: 1px solid whitesmoke;
+    .raitingAndPrice {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      color: #bcbcbc;
+      padding: 20px 10px ;
+      font-size: 18px;
+      .stars {
+        width: 140px;
+        height: 23px;
+      }
+    }
+    .info {
+      display: flex;
+      text-align: left;
+      flex-direction: column;
+      h2 {
+        padding: 0 10px;
+        font-size: 30px;
+        color: #212529;
+        font-weight: 100;
+      }
+      .description {
+        padding: 10px 10px;
+        font-size: 15px;
+        color: #212529;
+      }
+      .reviews{
+        margin: 30px 10px;
+        color: #bcbcbc;
+        cursor: pointer;
+        width: max-content;
+      }
+    }
+  }
+}
+
+}
