@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9ziv6l');
-  src:  url('fonts/icomoon.eot?9ziv6l#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9ziv6l') format('truetype'),
-    url('fonts/icomoon.woff?9ziv6l') format('woff'),
-    url('fonts/icomoon.svg?9ziv6l#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?e1sc2a");
+  src: url("fonts/icomoon.eot?e1sc2a#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?e1sc2a") format("truetype"),
+    url("fonts/icomoon.woff?e1sc2a") format("woff"),
+    url("fonts/icomoon.svg?e1sc2a#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,8 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-message:before {
-  content: "\e900";
+.icon-eye:before {
+  content: "\e907";
+}
+.icon-arrows:before {
+  content: "\e902";
 }
 .icon-magazine:before {
   content: "\e93a";
@@ -54,4 +58,61 @@
 }
 .icon-linkedin:before {
   content: "\eac9";
+}
+.icon-arrow-down:before {
+  content: "\e904";
+}
+.icon-services:before {
+  content: "\e905";
+}
+.icon-truck:before {
+  content: "\e903";
+}
+.icon-liked:before {
+  content: "\e901";
+}
+.icon-percent1:before {
+  content: "\e906";
+}
+.icon-magazine:before {
+  content: "\e93a";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-profile:before {
+  content: "\e971";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-arrow-down:before {
+  content: "\e904";
+}
+.icon-services:before {
+  content: "\e905";
+}
+.icon-truck:before {
+  content: "\e903";
+}
+.icon-liked:before {
+  content: "\e901";
+}
+.icon-message:before {
+  content: "\e900";
 }

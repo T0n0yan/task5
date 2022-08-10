@@ -10,8 +10,8 @@ const SecondPage = (props) => {
     const aboutPost = props.aboutPost
   return (
     <div className='secondContainer  G-direction-aline-justify'>
-        <div  className='G-bg-image-center' style={{backgroundImage:`url("${aboutPost.img}")`}} />
-        <span>{aboutPost.title}</span>
+        <span  className={aboutPost.icon} />
+        <p>{aboutPost.title}</p>
     </div>
   )
 }

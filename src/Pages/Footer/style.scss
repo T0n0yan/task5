@@ -48,6 +48,10 @@
         padding: 10px 10px;
         border-radius: 50%;
         border: 1px solid rgb(48, 48, 48);
+        &:hover{
+          background-color: white;
+          color: black;
+        }
       }
     }
     .label {
@@ -78,6 +82,7 @@
     width: 100%;
     background-color: #1d242d;
     padding: 20px 0;
+    cursor: pointer;
 
     span {
       font-size: 18px;

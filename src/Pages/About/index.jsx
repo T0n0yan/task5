@@ -4,6 +4,7 @@ import FirstAboutContainer from "./FirstAboutContainer/index";
 import ProductTitle from "../../Components/Product Title/index";
 import SecondPage from "./SecondPage";
 import { SecondAboutData } from "./SecondPage/aboutSecondData";
+import OurBrandes from "../../Components/BrendsComponenta";
 
 const About = () => {
   return (
@@ -19,6 +20,8 @@ const About = () => {
             <SecondPage aboutPost={el} id={SecondAboutData.id} />
           ))}
         </div>
+
+        <OurBrandes />
       </div>
     </div>
   );

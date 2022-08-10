@@ -23,7 +23,7 @@ const Header = () => {
             <div className="icon-magazine">
               <span></span>
             </div>
-            <div className="icon-profile">
+            <div className="icon-liked">
               <span></span>
             </div>
           </div>
